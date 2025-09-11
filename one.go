@@ -1,8 +1,7 @@
-package main
+package main 
 
 import "fmt"
 
-func main() {
-    fmt.Println("Hello, Go i love my mother  i love saudi arabia")
+func main () {
+fmt. Println ("Hello, Go I am yousuf Hossain")
 }
-   
