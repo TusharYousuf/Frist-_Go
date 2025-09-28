@@ -1,23 +1,15 @@
-package main
-
+package main 
 import "fmt"
 
 func main() {
-    age := 20
+	var name string
+	var age int
 
-    if age >= 18 {
-        fmt.Println("You are eligible to vote.")
-    } else {
-        fmt.Println("You are not eligible to vote.")
-    }
+	fmt.Print("Enter your name: ")
+	fmt.Scanln(&name)
 
-    temperature := 25
+	fmt.Print("Enter your age:")
+	fmt.Scanln(&age)
 
-    if temperature < 0 {
-        fmt.Println("It's freezing!")
-    } else if temperature < 20 {
-        fmt.Println("It's a bit chilly.")
-    } else {
-        fmt.Println("It's a pleasant temperature.")
-    }
+	fmt.Println("Hello", name, "your age is", age)
 }
