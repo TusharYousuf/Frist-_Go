@@ -1,15 +1,20 @@
-package main
+package main 
  
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	var twoD [2][3]int
-	for i := 0; i < 2; i++ {
-		for j := 0; j < 3; j++ {
-			twoD[i][j] = i + j
-		}
+	var map1 map[int]int
+	if map1 == nil {
+		fmt.Println("True")
+	} else {
+		fmt.Println("False")
 	}
-	fmt.Println("2d: ", twoD)
+	map2 := map[int]string{
+		90: "Dog",
+		91: "Cat",
+		92: "Cow",
+		93: "Bird",
+		94: "Rabbit",
+	}
+	fmt.Println("Map-2: ", map2)
 }
