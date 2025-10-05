@@ -1,27 +1,17 @@
-package main
+package main 
 
 import "fmt"
 
 func main() {
-	p := 34
-	q := 20
-	// '==' (Equal To)
-	result1 := p == q
-	fmt.Println(result1)
-	// '!='(Not equal To)
-	result2 := p != q
-	fmt.Println(result2)
-	// '>'(Greater Than)
-	result3 := p > q
-	fmt.Println(result3)
-	// '<'(Less Than)
-	result4 := p < q
-	fmt.Println(result4)
-	// '>='(Greater Than Equal To)
-	result5 := p >= q
-	fmt.Println(result5)
-	// '<='(Less Than Equal To)
-	result6 := p <= q
-	fmt.Println(result6)
-
+	var p int = 23
+	var q int = 60
+	if p != q && p <= q {
+		fmt.Println("True")
+	}
+	if p != q || p <= q {
+		fmt.Println("True")
+	}
+	if !(p == q) {
+		fmt.Println("True")
+	}
 }
