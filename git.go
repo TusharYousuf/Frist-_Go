@@ -1,8 +1,8 @@
 1st, time amra amader code gula stage a rakhbo , 1st,commit =========  git add .
 2nd, pore amra sms korar jonno commit likhbo========================  git commit -m" my function is work done"
 3rd, git-hub er code sent korar jonno ===========================  git push
-4rth,my function = camele cass 
+4rth, my function = camele cass 
 
 
 
-https://academy.vivasoftltd.com/golang-bootcamp/
+
